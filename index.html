@@ -8,24 +8,24 @@
  *{
 	box-sizing:border-box;
 }
-.col-20{
-	width:10%;
+.col-43{
+	width:43%;
 	float:left;
 	padding:20px;
 	border-radius:30px;
 	border:5px dashed black;
 	background:#708090;
 }
-.col-40{
-	width:45%;
+.col-29{
+	width:29%;
 	float:left;
 	padding:15px;
 }
-.flex_cont{
+.flex-hr{
 	display:flex;
-	flex-direction:column;
+	/*flex-direction:column;*/
 }
-.flex_cont > a {
+a {
 	border:5px solid #f64c72;
 	border-radius:50px;
 	text-align:center;
@@ -35,26 +35,48 @@
 	text-decoration:None;
 	color:white;
 	font-family: 'Bangers', cursive;
+	margin: 10px;
+}
+pre{
+  font-family: 'Bangers', cursive;
+  font-size: 150%;
+margin:0px;
 }
 </style>
 </head>
 
 
-<body style="background:#2f2f82/*FFEBCD*/;">
+<body style="background:#2f2f82;">
 <div align="center" style="font-size:500%;color:#00fa9a;font-family:'Fredericka the Great', cursive;"> Reference Links </div>
-<div class="col-40"></div>
-<div class="col-20 flex_cont">
-<a href="">1</a>
-<p></p>
-<a href="">2</a>
-<p></p>
-<a href="">3</a>
-<p></p>
-<a href="">4</a>
+<div class="col-29"></div>
+
+<div class="col-43" style="display:flex; flex-direction:column;">
+      <pre>1. Magnetic Beads </pre>
+      <div class="flex-hr">
+        <a target="new" title="Usage" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080036/">1.0</a>
+        <a target="new" title="Method supported" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7202819/">1. 1</a>
+        <a target="new" title="Method Patent" href="https://patents.google.com/patent/US5705628">1.2</a>
+      </div>
+      <pre style="color:#ffd700;">2. RNA probes</pre>
+      <div class="flex-hr">
+        <a target="new" title="Oligonucleotide probes in PCR" href="https://www.ncbi.nlm.nih.gov/books/NBK9916/#_A477_">2.0</a>
+        <a target="new" title="In-Situ hybridization" href="https://www.ncbi.nlm.nih.gov/probe/docs/techish/">2. 1</a>
+        <a target="new" title="Probe Working" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC358255/?page=2">2.2</a>
+      </div>
+      <pre style="color:#ff8c00;">3. Dehybridization and result</pre>
+      <div class="flex-hr">
+        <a target="new" title="Dehyb conditions" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4168728/">3.0</a>
+        <a target="new" title="Bial's test" href="http://dept.harpercollege.edu/chemistry/chm/100/dgodambe/thedisk/carbo/bial/bials.htm">3. 1</a>
+      </div>
+      <pre style="color:#8b0000;">5. Extra</pre>
+      <div class="flex-hr">
+        <a target="new" title="A-Z nucleic acids" href="https://www2.chemistry.msu.edu/faculty/reusch/VirtTxtJml/nucacids.htm">4.0</a>
+        <a target="new" title="need for faster methods" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7269383/">4.1</a>
+        <a target="new" title="RNA isolation" href="https://en.wikipedia.org/wiki/Acid_guanidinium_thiocyanate-phenol-chloroform_extraction">4.2</a>
+        <a target="new" title="SARS-CoV-2 seq" href="https://www.ncbi.nlm.nih.gov/projects/sviewer/?id=NC_045512&tracks=[key:sequence_track,name:Sequence,display_name:Sequence,id:STD649220238,annots:Sequence,ShowLabel:false,ColorGaps:false,shown:true,order:1][key:gene_model_track,name:Genes,display_name:Genes,id:STD3194982005,annots:Unnamed,Options:ShowAllButGenes,CDSProductFeats:true,NtRuler:true,AaRuler:true,HighlightMode:2,ShowLabel:true,shown:true,order:9]&v=1:29903&c=null&select=null&slim=0">4.3</a>
+        <a target="new" title="RT-PCR" href="https://www.assaygenie.com/rna-extraction-for-covid-19-testing">4.4</a>
+      </div>
 </div>
-
-
-
+<div></div>
 </body>
 </html>
-
