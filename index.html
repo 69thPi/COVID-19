@@ -19,7 +19,13 @@
 .col-30{
 	width:30%;
 	float:left;
-
+}
+.col-80{
+  width:100%;
+	float:left;
+  padding: 1% 5% 1% 5%;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 3%;
 }
 .sidebar{
   padding:15px;
@@ -29,7 +35,6 @@
 }
 .flex-hr{
 	display:flex;
-	/*flex-direction:column;*/
 }
 .none{
   border:0px;
@@ -65,6 +70,23 @@ margin:0px;
 a{
   text-decoration: none;
   color: white;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 10%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  border: 5px solid black;
 }
 </style>
 </head>
@@ -181,6 +203,38 @@ a{
       drastically reducing the testing time.
     </div>
 </div>
+<div class="col-80">
+  <p style="font-family: 'Paprika','Special Elite',cursive;color:white;">
+      Statistically, at present 10 crore asymptomatic carriers exist in India. Large population densities are encountered in rural areas that
+      account for a majority of the population. Do you have a plan that works in the areas shown below?</br>
+      Masks being worn, people are aware but have no means of fighting the virus.</p>
+  <p style="font-family: 'Paprika','Special Elite',cursive;color:white;text-align:center;"> Give them a weapon, give them a kit!</br>
+      AIM: Allow every individual to test and isolate themselves. Do you have a better plan that works here?</p>
+  </p>
+<div class="row">
+  <div class="column">
+      <a target="_blank" href="res/1.jpg"><img src="res/1.jpg" style="width:100%;"></a>
+      <a target="_blank" href="res/6.jpg"><img src="res/6.jpg" style="width:100%;"></a>
+    </div>
+    <div class="column">
+      <a target="_blank" href="res/2.jpg"><img src="res/2.jpg" style="width:100%;"></a>
+      <a target="_blank" href="res/7.jpg"><img src="res/7.jpg" style="width:100%;"></a>
+    </div>
+    <div class="column">
+      <a target="_blank" href="res/3.jpg"><img src="res/3.jpg" style="width:100%;"></a>
+      <a target="_blank" href="res/8.jpg"><img src="res/8.jpg" style="width:100%;"></a>
+    </div>
+    <div class="column">
+      <a target="_blank" href="res/4.jpg"><img src="res/4.jpg" style="width:100%;"></a>
+      <a target="_blank" href="res/9.jpg"><img src="res/9.jpg" style="width:100%;"></a>
+    </div>
+    <div class="column">
+      <a target="_blank" href="res/5.jpg"><img src="res/5.jpg" style="width:100%;"></a>
+      <a target="_blank" href="res/10.jpg"><img src="res/10.jpg" style="width:100%;"></a>
+    </div>
+  </div>
+</div>
+
 
 </body>
 </html>
